@@ -17,6 +17,7 @@ jobs:
       with:
           kernel-url: https://github.com/RealHenryGX/android_kernel_mediatek_mt6761-62-4.9
           kernel-branch: master
+          kernel-dir: false
           config: defconfig
           arch: arm64
           aosp-gcc: true
